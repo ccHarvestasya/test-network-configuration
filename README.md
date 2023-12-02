@@ -1,0 +1,2 @@
+# test-network-configuration
+SymbolTestnetのネメシスブロックとコンフィグ
