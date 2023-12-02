@@ -1,0 +1,115 @@
+{
+  "_info": "this file contains a list of peers",
+  "knownPeers": [
+    {
+      "publicKey": "A45EF38076705CB274DEBB76D9835472DE0214D5D9E7C379EBDF34CDE80302B0",
+      "endpoint": {
+        "host": "119.230.49.208",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mobile.neluta",
+        "roles": "Peer"
+      }
+    },
+    {
+      "publicKey": "CEAAE51C6D294AEFC1A3C84FEFE9D60B0CE815DBC66567211A41B7DE2DC164B8",
+      "endpoint": {
+        "host": "mikun-testnet.tk",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mikun_test1",
+        "roles": "Peer,Api,Voting"
+      }
+    },
+    {
+      "publicKey": "D20C4BFCE4AA22D8C9FDC5952BA36F41EE2226241362A963223A077FB1942192",
+      "endpoint": {
+        "host": "mikun-testnet2.tk",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mikun_test2",
+        "roles": "Peer,Api"
+      }
+    },
+    {
+      "publicKey": "C1773740461C97FF172E966213716E089A93DC43F10BE55DC27CC49CBA67E692",
+      "endpoint": {
+        "host": "401-sai-dual.symboltest.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "401-sai-dual",
+        "roles": "Api,Peer,Voting"
+      }
+    },
+    {
+      "publicKey": "03A9EF5A45C8D4D059D3E9C95DC5956091E3E855DC812F363DB41D987BF927A6",
+      "endpoint": {
+        "host": "test02.xymnodes.com",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "test node02 from xymnodes",
+        "roles": "Peer,Api,Voting"
+      }
+    },
+    {
+      "publicKey": "645E2E56B5F8680B69BC0255F4930169DBC052BB25F8121055DE2072D37E2C30",
+      "endpoint": {
+        "host": "201-sai-dual.symboltest.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "201-sai-dual",
+        "roles": "Api,Peer"
+      }
+    },
+    {
+      "publicKey": "9B49CC928ECE6692B5B81BBC5D0EE7E3DD40E5CA41C6D2650EDEADCC8D95EA8E",
+      "endpoint": {
+        "host": "vmi835907.contaboserver.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "Nemris Super Node for Testnet-Voting-1",
+        "roles": "Peer,Api,Voting"
+      }
+    },
+    {
+      "publicKey": "6492B8EAEA9753738B1282B79E90B9C9497166A392C3EF3EDF587841579923CE",
+      "endpoint": {
+        "host": "host130041.dais.cds.tohoku.ac.jp",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "host130041",
+        "roles": "Peer,Api"
+      }
+    },
+    {
+      "publicKey": "D189B23F3808D6307026EDDC37936CCB219B0FE8EEB826A0006710B7BCBA0C6E",
+      "endpoint": {
+        "host": "12t.dusanjp.com",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "dusanjp12t@sai_peer",
+        "roles": "Peer"
+      }
+    },
+    {
+      "publicKey": "CBF103D21DD7E0A6130F1145C741D83217B3401FD2D045D5095C0BD0F46A223A",
+      "endpoint": {
+        "host": "6.dusanjp.com",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "dusanjp6@sai",
+        "roles": "Peer,Api"
+      }
+    }
+  ]
+}
