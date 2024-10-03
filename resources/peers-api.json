@@ -2,13 +2,35 @@
   "_info": "this file contains a list of api peers",
   "knownPeers": [
     {
-      "publicKey": "24A1C604DAAB6D23CE19BD00FF272A87382B019ADDEA99193F15E469B5646080",
+      "publicKey": "645E2E56B5F8680B69BC0255F4930169DBC052BB25F8121055DE2072D37E2C30",
       "endpoint": {
-        "host": "vmi831828.contaboserver.net",
+        "host": "201-sai-dual.symboltest.net",
         "port": 7900
       },
       "metadata": {
-        "name": "MAMESHIBA",
+        "name": "201-sai-dual",
+        "roles": "Peer,Api"
+      }
+    },
+    {
+      "publicKey": "CEAAE51C6D294AEFC1A3C84FEFE9D60B0CE815DBC66567211A41B7DE2DC164B8",
+      "endpoint": {
+        "host": "testnet1.symbol-mikun.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mikun_test1",
+        "roles": "Peer,Api,Voting"
+      }
+    },
+    {
+      "publicKey": "D20C4BFCE4AA22D8C9FDC5952BA36F41EE2226241362A963223A077FB1942192",
+      "endpoint": {
+        "host": "testnet2.symbol-mikun.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mikun_test2",
         "roles": "Peer,Api"
       }
     },
@@ -24,91 +46,14 @@
       }
     },
     {
-      "publicKey": "06862C55992CAC030606E5B623474F0AC359F2ED05DDD5067403172A2D341F65",
+      "publicKey": "BF61564C09B8A44A940EB09B9D062020A39BA848BAB838D597F27B11F1FBE717",
       "endpoint": {
-        "host": "20.48.92.124",
+        "host": "sym-test-01.opening-line.jp",
         "port": 7900
       },
       "metadata": {
-        "name": "06862C5",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "6492B8EAEA9753738B1282B79E90B9C9497166A392C3EF3EDF587841579923CE",
-      "endpoint": {
-        "host": "host130041.dais.cds.tohoku.ac.jp",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "host130041",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "CBF103D21DD7E0A6130F1145C741D83217B3401FD2D045D5095C0BD0F46A223A",
-      "endpoint": {
-        "host": "6.dusanjp.com",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "dusanjp6@sai",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "9B49CC928ECE6692B5B81BBC5D0EE7E3DD40E5CA41C6D2650EDEADCC8D95EA8E",
-      "endpoint": {
-        "host": "vmi835907.contaboserver.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "Nemris Super Node for Testnet-Voting-1",
-        "roles": "Peer,Api,Voting"
-      }
-    },
-    {
-      "publicKey": "D20C4BFCE4AA22D8C9FDC5952BA36F41EE2226241362A963223A077FB1942192",
-      "endpoint": {
-        "host": "mikun-testnet2.tk",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "mikun_test2",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "7BCDB84A784EFC5ACF4E008E7DB4752AD08C22EB73B4C39C86B911D47714B92F",
-      "endpoint": {
-        "host": "test01.xymnodes.com",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "test node01 from xymnodes",
-        "roles": "Peer,Api,Voting"
-      }
-    },
-    {
-      "publicKey": "AC2B4FD9F3D5C3565B5BBB1D723F24EFEA5DBD63FAD91863D5B338EC8A530E42",
-      "endpoint": {
-        "host": "ec2-107-22-76-16.compute-1.amazonaws.com",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "hello bear",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "645E2E56B5F8680B69BC0255F4930169DBC052BB25F8121055DE2072D37E2C30",
-      "endpoint": {
-        "host": "201-sai-dual.symboltest.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "201-sai-dual",
-        "roles": "Api,Peer"
+        "name": "sym-test-01.opening-line.jp.",
+        "roles": "Api,Peer,Voting"
       }
     }
   ]
