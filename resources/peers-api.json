@@ -2,35 +2,13 @@
   "_info": "this file contains a list of api peers",
   "knownPeers": [
     {
-      "publicKey": "645E2E56B5F8680B69BC0255F4930169DBC052BB25F8121055DE2072D37E2C30",
+      "publicKey": "24A1C604DAAB6D23CE19BD00FF272A87382B019ADDEA99193F15E469B5646080",
       "endpoint": {
-        "host": "201-sai-dual.symboltest.net",
+        "host": "vmi831828.contaboserver.net",
         "port": 7900
       },
       "metadata": {
-        "name": "201-sai-dual",
-        "roles": "Peer,Api"
-      }
-    },
-    {
-      "publicKey": "CEAAE51C6D294AEFC1A3C84FEFE9D60B0CE815DBC66567211A41B7DE2DC164B8",
-      "endpoint": {
-        "host": "testnet1.symbol-mikun.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "mikun_test1",
-        "roles": "Peer,Api,Voting"
-      }
-    },
-    {
-      "publicKey": "D20C4BFCE4AA22D8C9FDC5952BA36F41EE2226241362A963223A077FB1942192",
-      "endpoint": {
-        "host": "testnet2.symbol-mikun.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "mikun_test2",
+        "name": "MAMESHIBA",
         "roles": "Peer,Api"
       }
     },
@@ -41,7 +19,6 @@
         "port": 7900
       },
       "metadata": {
-<<<<<<< HEAD
         "name": "sym-test-01.opening-line.jp.",
         "roles": "Peer,Api,Voting"
       }
@@ -66,21 +43,6 @@
       "metadata": {
         "name": "201-sai-dual",
         "roles": "Api,Peer"
-=======
-        "name": "401-sai-dual",
-        "roles": "Api,Peer,Voting"
-      }
-    },
-    {
-      "publicKey": "BF61564C09B8A44A940EB09B9D062020A39BA848BAB838D597F27B11F1FBE717",
-      "endpoint": {
-        "host": "sym-test-01.opening-line.jp",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "sym-test-01.opening-line.jp.",
-        "roles": "Api,Peer,Voting"
->>>>>>> 35b49b6fc24cdb344ec873d68cb7501168c834e2
       }
     },
     {
