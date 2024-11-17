@@ -2,6 +2,7 @@
   "_info": "this file contains a list of peers",
   "knownPeers": [
     {
+<<<<<<< HEAD
       "publicKey": "154A2B669BDE15924FF6FEE9ECB9CDD79EEADA4131665748A12132EAA465E575",
       "endpoint": {
         "host": "sym-test-03.opening-line.jp",
@@ -9,13 +10,37 @@
       },
       "metadata": {
         "name": "sym-test-03.opening-line.jp.",
+=======
+      "publicKey": "645E2E56B5F8680B69BC0255F4930169DBC052BB25F8121055DE2072D37E2C30",
+      "endpoint": {
+        "host": "201-sai-dual.symboltest.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "201-sai-dual",
+        "roles": "Peer,Api"
+      }
+    },
+    {
+      "publicKey": "CEAAE51C6D294AEFC1A3C84FEFE9D60B0CE815DBC66567211A41B7DE2DC164B8",
+      "endpoint": {
+        "host": "testnet1.symbol-mikun.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "mikun_test1",
+>>>>>>> 35b49b6fc24cdb344ec873d68cb7501168c834e2
         "roles": "Peer,Api,Voting"
       }
     },
     {
       "publicKey": "E29CD799B119BB28ACEB643F603CAF0558ABF33DD6D95C65ECA7F0E64C2CC47F",
       "endpoint": {
+<<<<<<< HEAD
         "host": "101-sai-peer.symboltest.net",
+=======
+        "host": "testnet2.symbol-mikun.net",
+>>>>>>> 35b49b6fc24cdb344ec873d68cb7501168c834e2
         "port": 7900
       },
       "metadata": {
@@ -42,6 +67,7 @@
       },
       "metadata": {
         "name": "sym-test-01.opening-line.jp.",
+<<<<<<< HEAD
         "roles": "Peer,Api,Voting"
       }
     },
@@ -109,6 +135,9 @@
       "metadata": {
         "name": "119C373",
         "roles": "Peer,Api"
+=======
+        "roles": "Api,Peer,Voting"
+>>>>>>> 35b49b6fc24cdb344ec873d68cb7501168c834e2
       }
     }
   ]
