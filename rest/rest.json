@@ -1,7 +1,7 @@
 {
 	"network": {
-		"name": "mainnet",
-		"description": "Symbol mainnet network"
+		"name": "testnet",
+		"description": "Symbol Sainet Network"
 	},
 	"port": 3000,
 	"protocol": "HTTP",
@@ -11,12 +11,7 @@
 		"allowedHosts": ["*"],
 		"allowedMethods": ["GET", "POST", "PUT", "OPTIONS"]
 	},
-	"uncirculatingAccountPublicKeys": [
-		"A4739036FD7EFED2750A51EE9D1D3113BA3F9849E0889213CED7F221B2AA1A20",
-		"2BF1E1F3072E3BE0CD851E4741E101E33DB19C163895F69AA890E7CF177C878C",
-		"E85D10BF47FFBCE2230F70CB43ED2DDE04FCF342524B383972F86EA1FF773C79",
-		"FE454406EFC15EBBCF4C27491519B7EBE696AD2D734A53E02019FC5D02D1419C"
-	],
+	"uncirculatingAccountPublicKeys": [],
 	"extensions": [
 		"accountLink",
 		"aggregate",
@@ -41,20 +36,18 @@
 		"connectionPoolSize": 10,
 		"connectionTimeout": 500
 	},
-
 	"apiNode": {
-		"host": "client",
+		"host": "node",
 		"port": 7900,
 		"timeout": 1000,
-		"tlsClientCertificatePath": "/certificates/node.crt.pem",
-		"tlsClientKeyPath": "/certificates/node.key.pem",
-		"tlsCaCertificatePath": "/certificates/ca.crt.pem",
+		"tlsClientCertificatePath": "/symbol-workdir/api-node-config/cert/node.crt.pem",
+		"tlsClientKeyPath": "/symbol-workdir/api-node-config/cert/node.key.pem",
+		"tlsCaCertificatePath": "/symbol-workdir/api-node-config/cert/ca.cert.pem",
 
-		"inflationPropertyFilePath": "/userconfig/resources/config-inflation.properties",
-		"networkPropertyFilePath": "/userconfig/resources/config-network.properties",
-		"nodePropertyFilePath": "/userconfig/resources/config-node.properties"
+		"inflationPropertyFilePath": "/symbol-workdir/api-node-config/config-inflation.properties",
+		"networkPropertyFilePath": "/symbol-workdir/api-node-config/config-network.properties",
+		"nodePropertyFilePath": "/symbol-workdir/api-node-config/config-node.properties"
 	},
-
 	"websocket": {
 		"mq": {
 			"host": "broker",
@@ -74,17 +67,15 @@
 	"logging": {
 		"console": {
 			"formats": ["colorize", "simple"],
-
 			"level": "verbose",
 			"handleExceptions": true
 		},
 		"file": {
 			"formats": ["prettyPrint"],
-
 			"level": "verbose",
 			"handleExceptions": true,
 
-			"filename": "/logs/rest/catapult-rest.log",
+			"filename": "/symbol-workdir/logs/catapult-rest.log",
 			"maxsize": 20971520,
 			"maxFiles": 100
 		}
@@ -93,8 +84,8 @@
 	"numBlocksTransactionFeeStats": 300,
 
 	"deployment": {
-		"deploymentTool": "shoestring",
-		"deploymentToolVersion": "0.1.0",
+		"deploymentTool": "n/a",
+		"deploymentToolVersion": "n/a",
 		"lastUpdatedDate": "n/a"
 	},
 
